@@ -1,0 +1,30 @@
+{
+    "tags": [
+        {
+			"tag": "select",
+			"cf-input-placeholder": "Pick one",
+			"size": "3",
+			"cf-questions": "A little bit about myself: I'm currently a senior at the University of Michigan majoring in Computer Science.&&In my free time I love to learn more about CS concepts, watch movies, play video games and like to take photos, specifically film photos!&&You can read my blog on <a href='https://medium.com/@luispadron' target='_blank'>Medium</a>.&&You can also see all my open-source projects on <a href='https://github.com/luispadron' target='_blank'>GitHub</a>.&&If you would like to talk to me, whenever I get out of this darn website, my email is <a href='mailto:heyluispadron@gmail.com'>heyluispadron@gmail.com</a>",
+			"children":[
+				{
+					"tag": "option",
+					"name": "about-opts",
+					"cf-label": "Let's talk about your experience",
+					"value": "opt-experience"
+				},
+				{
+					"tag": "option",
+					"name": "about-opts",
+					"cf-label": "Tell me about your projects",
+					"value": "opt-projects"
+				},
+				{
+					"tag": "option",
+					"name": "about-opts",
+					"cf-label": "Bye!",
+					"value": "opt-end"
+				}
+			]
+		}
+    ]
+}

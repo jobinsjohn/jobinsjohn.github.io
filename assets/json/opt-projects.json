@@ -1,0 +1,36 @@
+{
+    "tags": [
+        {
+			"tag": "select",
+			"cf-input-placeholder": "Pick one",
+			"size": "4",
+			"cf-questions": "Which of my projects would you like to learn more about?",
+			"children":[
+				{
+					"tag": "option",
+					"name": "project-opts",
+					"cf-label": "GradePoint",
+					"value": "opt-gradepoint"
+				},
+				{
+					"tag": "option",
+					"name": "project-opts",
+					"cf-label": "UICircularProgressRing",
+					"value": "opt-ucpr"
+				},
+				{
+					"tag": "option",
+					"name": "project-opts",
+					"cf-label": "EyeBot",
+					"value": "opt-eyebot"
+				},
+				{
+					"tag": "option",
+					"name": "project-opts",
+					"cf-label": "Actually, tell me about your experience",
+					"value": "opt-experience"
+				}
+			]
+		}
+    ]
+}

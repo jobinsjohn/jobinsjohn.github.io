@@ -1,0 +1,13 @@
+{
+  "name": "ConversationalPortfolio",
+  "version": "1.0.0",
+  "description": "Conversation portfolio web app",
+  "main": "app.js",
+  "repository": "git@github.com:luispadron/ConversationalPortfolio.git",
+  "author": "Luis Padron <heyluispadron@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

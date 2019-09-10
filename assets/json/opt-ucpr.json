@@ -1,0 +1,30 @@
+{
+    "tags": [
+        {
+			"tag": "select",
+			"cf-input-placeholder": "Pick one",
+			"size": "3",
+			"cf-questions": "UICircularProgressRing is an open-source library I wrote in Swift for iOS.&&It's available on GitHub with over 800 stars, check it out <a href='https://github.com/luispadron/uicircularprogressring' target='_blank'>here.</a>",
+			"children":[
+				{
+					"tag": "option",
+					"name": "ucpr-opts",
+					"cf-label": "Tell me about GradePoint",
+					"value": "opt-gradepoint"
+				},
+				{
+					"tag": "option",
+					"name": "ucpr-opts",
+					"cf-label": "What about EyeBot",
+					"value": "opt-eyebot"
+				},
+				{
+					"tag": "option",
+					"name": "ucpr-opts",
+					"cf-label": "Let's talk about your experience",
+					"value": "opt-experience"
+				}
+			]
+		}
+    ]
+}

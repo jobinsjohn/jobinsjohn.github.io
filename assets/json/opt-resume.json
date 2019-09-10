@@ -1,0 +1,30 @@
+{
+    "tags": [
+        {
+			"tag": "select",
+			"cf-input-placeholder": "Pick one",
+			"size": "3",
+			"cf-questions": "You can see my resume at <a href='https://www.dropbox.com/s/w7vrsbf4hg5qscy/Luis%20Padron%20Resume.pdf?dl=0' target='_blank'>this link here.</a>",
+			"children":[
+				{
+					"tag": "option",
+					"name": "resume-opts",
+					"cf-label": "Tell me about yourself",
+					"value": "opt-about"
+                },
+                {
+					"tag": "option",
+					"name": "resume-opts",
+					"cf-label": "Let's talk about your experience.",
+					"value": "opt-experience"
+				},
+				{
+					"tag": "option",
+					"name": "resume-opts",
+					"cf-label": "What about your projects",
+					"value": "opt-projects"
+				}
+			]
+		}
+    ]
+}

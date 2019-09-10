@@ -1,0 +1,36 @@
+{
+    "tags": [
+        {
+            "tag": "select",
+            "cf-input-placeholder": "Pick one",
+			"size": "4",
+			"cf-questions": "At TripAdvisor I did a ton of awesome things!&&I collaborated with a big iOS team to add a large new feature to the TripAdvisor iOS application.&&I also learned industry best practices like code reviews and continuous integration!&&Another cool thing I did was work with a small team to create a feature on top of the existing iOS application which won 2nd place in TripAdvisor's hackathon!",
+			"children":[
+				{
+					"tag": "option",
+					"name": "tripadvisor-opts",
+					"cf-label": "Tell me about your research work",
+					"value": "opt-uofm"
+                },
+                {
+					"tag": "option",
+					"name": "tripadvisor-opts",
+					"cf-label": "Let's talk about Siemens",
+					"value": "opt-siemens"
+                },
+                {
+					"tag": "option",
+					"name": "tripadvisor-opts",
+					"cf-label": "Go back",
+					"value": "opt-experience"
+                },
+				{
+					"tag": "option",
+					"name": "tripadvisor-opts",
+					"cf-label": "Goodbye!",
+					"value": "opt-end"
+                }
+			]
+        }
+    ]
+}

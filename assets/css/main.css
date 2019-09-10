@@ -1,0 +1,83 @@
+html {
+  overflow: hidden;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background-color: #F4F9FD;
+  overflow: hidden;
+  margin: 0;
+  height: 100%;
+}
+
+#cf-context { 
+  width: 100vw; 
+  height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+}
+
+#form {
+  height: 0px;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  #cf-context {
+    width: 70vw;
+    max-width: 70%;
+  }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  #cf-context {
+    width: 80vw;
+    max-width: 80%;
+  }
+}
+
+.custom-theme .conversational-form cf-chat-response.user thumb {
+  height: 64px;
+  width: 64px;
+  padding-right: 20px;
+}
+
+.custom-theme .conversational-form cf-chat-response.robot thumb {
+  height: 64px;
+  width: 64px;
+}
+
+.custom-theme .conversational-form cf-chat-response.user {
+  padding-right: 80px;
+}
+
+.custom-theme .conversational-form cf-chat-response.robot {
+  padding-left: 80px;
+}
+
+.custom-theme .conversational-form {
+  background-color: #F4F9FD;
+}
+
+.custom-theme .conversational-form cf-chat-response.robot text > p {
+  background-color: white;
+}
+
+.custom-theme .conversational-form cf-button:hover {
+  background-color: #e3f1ff;
+}
+
+.custom-theme .conversational-form textarea {
+  border-radius: 20px;
+}

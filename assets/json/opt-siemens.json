@@ -1,0 +1,36 @@
+{
+    "tags": [
+        {
+            "tag": "select",
+            "cf-input-placeholder": "Pick one",
+			"size": "4",
+			"cf-questions": "I worked at Siemens part-time from January 2016 - May 2017&&While at Siemens I developed several native Android and iOS applications using Java and Swift respectively.&&I also worked with a team and developed a GPS tracking web application using Python which tracked shipping containers and displayed the live position on a map, it won first place in Siemens hackathon!",
+			"children":[
+				{
+					"tag": "option",
+					"name": "siemens-opts",
+					"cf-label": "Tell me about TripAdvisor",
+					"value": "opt-tripadvisor"
+                },
+                {
+					"tag": "option",
+					"name": "siemens-opts",
+					"cf-label": "What about your research experience",
+					"value": "opt-uofm"
+                },
+                {
+					"tag": "option",
+					"name": "siemens-opts",
+					"cf-label": "Go back",
+					"value": "opt-experience"
+                },
+				{
+					"tag": "option",
+					"name": "siemens-opts",
+					"cf-label": "Goodbye!",
+					"value": "opt-end"
+                }
+			]
+        }
+    ]
+}

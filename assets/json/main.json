@@ -1,0 +1,50 @@
+{
+	"options": {
+		"preventAutoAppend": true,
+		"preventAutoFocus": true,
+		"robotImage": "assets/img/me.png",
+		"userImage": "assets/img/user.png"
+	},
+	"tags": [
+		{
+			"tag": "input",
+			"type": "text",
+			"id": "intro-name",
+			"cf-input-placeholder": "Your name",
+			"cf-questions": "Hey there!&&I'm Luis.&&What's your name?"
+		},
+
+		{
+			"tag": "select",
+			"cf-input-placeholder": "Ask away",
+			"size": "4",
+			"cf-questions": "Nice to meet you, {previous-answer}!&&I'm currently trapped in this website!&&Feel free to ask me something...",
+			"children":[
+				{
+					"tag": "option",
+					"name": "main-opts",
+					"cf-label": "Your experience",
+					"value": "opt-experience"
+				},
+				{
+					"tag": "option",
+					"name": "main-opts",
+					"cf-label": "Your projects",
+					"value": "opt-projects"
+				},
+				{
+					"tag": "option",
+					"name": "main-opts",
+					"cf-label": "Tell me about yourself",
+					"value": "opt-about"
+				},
+				{
+					"tag": "option",
+					"name": "main-opts",
+					"cf-label": "Let me see your resume",
+					"value": "opt-resume"
+				}
+			]
+		}
+	]
+}

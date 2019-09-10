@@ -1,0 +1,30 @@
+{
+    "tags": [
+        {
+			"tag": "select",
+			"cf-input-placeholder": "Pick one",
+			"size": "3",
+			"cf-questions": "EyeBot is an iOS application which uses visual recognition to detect trained objects.&&It was developed for the Siemens Dev Jam in 2017.&&It's available on GitHub, check it out <a href='https://github.com/luispadron/eyebot' target='_blank'>here.</a>",
+			"children":[
+				{
+					"tag": "option",
+					"name": "eyebot-opts",
+					"cf-label": "Tell me about GradePoint",
+					"value": "opt-gradepoint"
+                },
+                {
+					"tag": "option",
+					"name": "eyebot-opts",
+					"cf-label": "Let's talk about UICircularProgressRing",
+					"value": "opt-ucpr"
+				},
+				{
+					"tag": "option",
+					"name": "eyebot-opts",
+					"cf-label": "Tell me about your experience",
+					"value": "opt-experience"
+				}
+			]
+		}
+    ]
+}

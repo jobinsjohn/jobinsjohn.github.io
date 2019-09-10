@@ -1,0 +1,24 @@
+{
+    "tags": [
+        {
+            "tag": "select",
+            "cf-input-placeholder": "Pick one",
+			"size": "2",
+			"cf-questions": "I currently plan on graduating in April 2019.",
+			"children":[
+				{
+					"tag": "option",
+					"name": "grad-date-opts",
+					"cf-label": "Go back",
+					"value": "opt-experience"
+				},
+				{
+					"tag": "option",
+					"name": "grad-date-opts",
+					"cf-label": "Goodbye!",
+					"value": "opt-end"
+                }
+			]
+        }
+    ]
+}

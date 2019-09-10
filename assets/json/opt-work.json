@@ -1,0 +1,30 @@
+{
+    "tags": [
+            {
+                "tag": "select",
+                "cf-input-placeholder": "What job do you want to ask about?",
+                "size": "3",
+                "cf-questions": "Which of my past jobs would you like to know more about?",
+                "children":[
+                    {
+                        "tag": "option",
+                        "name": "work-opts",
+                        "cf-label": "TripAdvisor",
+                        "value": "opt-tripadvisor"
+                    },
+                    {
+                        "tag": "option",
+                        "name": "work-opts",
+                        "cf-label": "Research",
+                        "value": "opt-uofm"
+                    },
+                    {
+                        "tag": "option",
+                        "name": "work-opts",
+                        "cf-label": "Siemens",
+                        "value": "opt-siemens"
+                    }
+                ]
+            }
+        ]
+    }

@@ -1,0 +1,36 @@
+{
+    "tags": [
+        {
+            "tag": "select",
+            "cf-input-placeholder": "Pick one",
+			"size": "4",
+			"cf-questions": "While in school I worked as a research assistant for the <a target='_blank' href='https://dpm.engin.umich.edu'>DPM department</a> at the University of Michigan.&&I researched ways to detect incorrect/damaging posture in workers.&&I also helped build an iOS application which could detect incorrect posture based on a given video.",
+			"children":[
+				{
+					"tag": "option",
+					"name": "uofm-opts",
+					"cf-label": "Tell me about TripAdvisor",
+					"value": "opt-tripadvisor"
+                },
+                {
+					"tag": "option",
+					"name": "uofm-opts",
+					"cf-label": "Let's talk about Siemens",
+					"value": "opt-siemens"
+                },
+                {
+					"tag": "option",
+					"name": "uofm-opts",
+					"cf-label": "Go back",
+					"value": "opt-experience"
+                },
+				{
+					"tag": "option",
+					"name": "uofm-opts",
+					"cf-label": "Goodbye!",
+					"value": "opt-end"
+                }
+			]
+        }
+    ]
+}

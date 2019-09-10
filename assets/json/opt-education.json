@@ -1,0 +1,30 @@
+{
+    "tags": [
+        {
+			"tag": "select",
+            "cf-input-placeholder": "Ask for more details...",
+			"size": "3",
+			"cf-questions": "I'm currently studying Computer Science at the University of Michigan in Ann Arbor.&&<img src='assets/img/uofm.png'></img>",
+			"children":[
+				{
+					"tag": "option",
+					"name": "education-opts",
+					"cf-label": "What's your GPA",
+					"value": "opt-gpa"
+				},
+				{
+					"tag": "option",
+					"name": "education-opts",
+					"cf-label": "When are you graduating?",
+					"value": "opt-grad-date"
+                },
+                {
+                    "tag": "option",
+                    "name": "education-opts",
+                    "cf-label": "What courses have you taken?",
+                    "value": "opt-courses"
+                }
+			]
+		}
+    ]
+}
