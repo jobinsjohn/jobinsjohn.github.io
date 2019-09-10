@@ -11,14 +11,14 @@
 			"type": "text",
 			"id": "intro-name",
 			"cf-input-placeholder": "Your name",
-			"cf-questions": "Hey there!&&I'm Luis.&&What's your name?"
+			"cf-questions": "Hey there!&&I'm Jobins.&&What's your name?"
 		},
 
 		{
 			"tag": "select",
 			"cf-input-placeholder": "Ask away",
 			"size": "4",
-			"cf-questions": "Nice to meet you, {previous-answer}!&&I'm currently trapped in this website!&&Feel free to ask me something...",
+			"cf-questions": "Nice to meet you, {previous-answer}!&&I'm currently trapped in this website! && Feel free to ask me something...",
 			"children":[
 				{
 					"tag": "option",
