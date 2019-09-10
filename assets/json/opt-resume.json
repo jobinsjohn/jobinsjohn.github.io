@@ -4,7 +4,7 @@
 			"tag": "select",
 			"cf-input-placeholder": "Pick one",
 			"size": "3",
-			"cf-questions": "You can see my resume at <a href='https://www.dropbox.com/s/w7vrsbf4hg5qscy/Luis%20Padron%20Resume.pdf?dl=0' target='_blank'>this link here.</a>",
+			"cf-questions": "You can see my resume at <a href='https://www.linkedin.com/in/jobinsjohn/' target='_blank'>this link here.</a>",
 			"children":[
 				{
 					"tag": "option",
