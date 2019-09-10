@@ -4,7 +4,7 @@
             "tag": "select",
             "cf-input-placeholder": "Pick one",
 			"size": "2",
-			"cf-questions": "I currently plan on graduating in April 2019.",
+			"cf-questions": "I graduated in April, 2013.",
 			"children":[
 				{
 					"tag": "option",
