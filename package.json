@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Conversation portfolio web app",
   "main": "app.js",
-  "repository": "git@github.com:luispadron/ConversationalPortfolio.git",
-  "author": "Luis Padron <heyluispadron@gmail.com>",
+  "repository": "git@github.com:jobinsjohn/ConversationalPortfolio.git",
+  "author": "Jobins John <hi@jobins.me>",
   "license": "MIT",
   "private": false,
   "dependencies": {
