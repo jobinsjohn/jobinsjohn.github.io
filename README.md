@@ -1,7 +1,7 @@
 ## ConversationalPortfolio
 
-**[luispadron.com](https://luispadron.com)**
+**[jobins.me](https://jobins.me)**
 
 A conversational chat bot based portfolio page
 
-![example](example.png)
+//![example](example.png)
